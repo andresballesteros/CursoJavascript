@@ -1,0 +1,45 @@
+* {
+  font-family: sans-serif;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  background-color: red;
+  color: lightblue;
+  font-weight: bold;
+}
+ul,
+li {
+  padding: 0 0;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.casa-alquiler {
+  background: lightgrey;
+  display: inline-block;
+  margin: 5px;
+  padding: 15px;
+  width: 27%;
+  height: 200px;
+  position: relative;
+}
+
+.casa-alquiler h1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+#menu-principal {
+  background-color: lightblue;
+  margin-bottom: 10px;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
