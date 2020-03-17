@@ -13,8 +13,8 @@
     <script src="app.js"></script>
   </head>
   <body>
-    <header>
-      <h1>Ejemplos del curso sobre HTML, CSS y Javascript</h1>
+    <header id="micabecera">
+      <h1 id="titulo">Ejemplos del curso sobre HTML, CSS y Javascript</h1>
       <nav id="menu-principal">
         <ul>
           <li><a href="">Inicio</a></li>
@@ -27,7 +27,12 @@
     <section>
       <article class="casa-alquiler">
         <h1>Casa en alquiler</h1>
-        <a href="" onclick="holamundo()">Ampliar info</a>
+        <a id="enlace" href="#" onclick="ampliarInfo();">Ampliar info</a>
+        <p id="textoResumen">Texto de resumen</p>
+        <p id="textoAmpliado">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+          iusto dolorum, dignissimos quod illum culpa!
+        </p>
       </article>
       <article class="casa-alquiler">
         <h1>Casa en alquiler</h1>

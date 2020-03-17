@@ -2,19 +2,17 @@
   font-family: sans-serif;
 }
 a {
-  color: red;
+  color: white;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
-  background-color: red;
   color: lightblue;
   font-weight: bold;
 }
 
-a:active{
+a:active {
   text-decoration: underline;
-  background-color: red;
   color: black;
   font-weight: bold;
 }
@@ -50,7 +48,7 @@ li {
 
 .casa-alquiler h1 {
   position: absolute;
-  top: 50px;
+  top: 100px;
   left: 50px;
   font-family: "Press Start 2P", cursive;
 }
@@ -75,6 +73,15 @@ header {
   z-index: 1;
 }
 
+footer{
+  background-color: #dfd493;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  color: white;
+}
+
 input[type="button"] {
   font-size: 20px;
   padding: 30px 30px;
@@ -93,7 +100,15 @@ input[type="button"]:hover {
     display: block;
     width: 100%;
   }
-  nav{
+  nav {
     display: none;
   }
+}
+
+header h1 {
+  text-align: center;
+}
+
+.casa-alquiler #textoAmpliado, #ocultarInfo{
+  display: none;
 }
