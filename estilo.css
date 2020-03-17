@@ -11,6 +11,14 @@ a:hover {
   color: lightblue;
   font-weight: bold;
 }
+
+a:active{
+  text-decoration: underline;
+  background-color: red;
+  color: black;
+  font-weight: bold;
+}
+
 ul,
 li {
   padding: 0 0;
