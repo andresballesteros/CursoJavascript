@@ -19,3 +19,7 @@ console.log(names);
 names.forEach(element => {
   greeting(element);
 });
+
+function holamundo(){
+  alert('Hola mundo desde función');
+}

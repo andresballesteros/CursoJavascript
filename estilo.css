@@ -27,27 +27,73 @@ li {
 }
 
 .casa-alquiler {
-  background: lightgrey;
+  /*: lightgrey;*/
+  background: -webkit-linear-gradient(
+    225deg,
+    rgba(30, 87, 153, 1) 0%,
+    rgba(49, 107, 169, 1) 20%,
+    rgba(115, 174, 223, 0.7) 89%,
+    rgba(125, 185, 232, 0) 100%
+  );
+  /*background: radial-gradient(ellipse at center,rgba(30,87,153, 1) 6%,rgba(30, 87, 153, 1) 18%,rgba(43, 100, 164, 1)29%,rgba(80, 138, 195, 0.7) 61%,rgba(88, 146, 202, 1) 68%, rgba(125, 185, 232, 0) 100%);*/
   display: inline-block;
   margin: 5px;
   padding: 15px;
   width: 27%;
   height: 200px;
   position: relative;
+  border-radius: 55px;
+  opacity: 0.8;
+  box-shadow: 10px 10px 5px #999999;
+  text-shadow: 2px 2px #999999;
 }
 
 .casa-alquiler h1 {
   position: absolute;
   top: 50px;
   left: 50px;
+  font-family: "Press Start 2P", cursive;
 }
 
-#menu-principal {
+/*#menu-principal {
   background-color: lightblue;
   margin-bottom: 10px;
-}
+}*/
 
 section {
   width: 80%;
   margin: 0 auto;
+  margin-top: 50px;
+}
+
+header {
+  background-color: #dfd493;
+  color: white;
+  top: 0px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+input[type="button"] {
+  font-size: 20px;
+  padding: 30px 30px;
+  border: 1px solid green;
+  background-color: lightgreen;
+  border-radius: 80px;
+}
+
+input[type="button"]:hover {
+  font-size: 21px;
+  padding: 30.5px 30.5px;
+}
+
+@media screen and (max-width: 800px) {
+  .casa-alquiler {
+    display: block;
+    width: 100%;
+  }
+  nav{
+    display: none;
+  }
 }
